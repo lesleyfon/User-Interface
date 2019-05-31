@@ -105,3 +105,30 @@ header nav  a {
 	margin-bottom: 20px;
 	text-align: center;
 }
+
+.container section .main-title{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding: 0px;
+    top: 0;
+    font-size: 60px;
+    line-height: 1.28;
+}
+
+.container section .header-img{
+	display: inline-block;
+	width: 45%;
+
+}
+section button{
+	border: none;
+	padding: 15px 65px;
+	font-size: 16px;
+	font-weight: 900; 
+
+}
+
+.container section{
+	margin: 5px 0px 50px 0px; 
+}
