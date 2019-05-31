@@ -68,14 +68,12 @@ h1, h2, h3, h4, h5 {
 .container{
 	max-width:750px;
 	margin: 0 auto;
-	border: red 1px solid; 
 
 }
 
 header{
 
 	margin: 0px 0px 20px 0;
-	border: 2px solid rebeccapurple;
 	min-height: 0;
 	width: 748px;
 
@@ -84,7 +82,6 @@ header{
 
 header nav {
 	text-decoration: none;
-	border: 1px red solid;
 	padding: 5px ;
 	margin: 0 auto;
 
@@ -150,6 +147,23 @@ main section .about{
 
 }
 
+
 address nav a {
 	text-decoration: none;
+}
+.vision{
+	display: inline-block;
+	width: 30%;
+	margin: 7px;
+}
+.product{
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+
+}
+.services{
+	display: inline-block;
+	margin: 7px 0px 10px 20px;
+	width: 30%;
 }
