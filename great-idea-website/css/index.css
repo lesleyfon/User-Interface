@@ -167,3 +167,8 @@ address nav a {
 	margin: 7px 0px 10px 20px;
 	width: 30%;
 }
+
+footer p {
+	margin: 20px;
+	text-align: center;
+}
