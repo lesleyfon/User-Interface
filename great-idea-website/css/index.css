@@ -68,4 +68,40 @@ h1, h2, h3, h4, h5 {
 .container{
 	max-width:750px;
 	margin: 0 auto;
+	border: red 1px solid; 
+
+}
+
+header{
+
+	margin: 0px 0px 20px 0;
+	border: 2px solid rebeccapurple;
+	min-height: 0;
+	width: 748px;
+
+
+}
+
+header nav {
+	text-decoration: none;
+	border: 1px red solid;
+	padding: 5px ;
+	margin: 0 auto;
+
+ } 
+header .logo{
+	display: inline-block;
+	width: 175px;
+	position: relative;
+	margin-left: 40px 
+}
+header nav  a {
+	color:grey;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 2px;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	text-align: center;
 }
