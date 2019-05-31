@@ -132,3 +132,17 @@ section button{
 .container section{
 	margin: 5px 0px 50px 0px; 
 }
+
+main section .features{
+	display: inline-block;
+	width: 45%;
+	margin: 30px;
+
+}
+main section .about{
+	display: inline-block;
+	width: 45%;
+	margin: 5px;
+
+
+}
