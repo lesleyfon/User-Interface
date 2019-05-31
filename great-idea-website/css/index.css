@@ -150,6 +150,9 @@ main section .about{
 
 address nav a {
 	text-decoration: none;
+	line-height: 1.6 ;
+	color: black;
+	font-weight: bold;
 }
 .vision{
 	display: inline-block;
@@ -166,7 +169,17 @@ address nav a {
 	display: inline-block;
 	margin: 7px 0px 10px 20px;
 	width: 30%;
+	
 }
+button {
+	border: none;
+	color: black;
+	text-align: center;
+	opacity: 0.6;
+	transition: 0.3s;
+  }
+  
+  button:hover {opacity: 1}
 
 footer p {
 	margin: 20px;
