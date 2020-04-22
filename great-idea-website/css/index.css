@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	max-width:750px;
+	margin: 0 auto;
+
+}
+
+header{
+
+	margin: 30px 0px 20px 0;
+	height: 80px;
+	width: 100%;
+
+}
+
+header nav {
+	text-decoration: none;
+	padding: 5px ;
+	margin: 0 auto;
+	position: relative;
+
+ } 
+header .logo{
+	display: inline-block;
+    width: 175px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+header nav  a {
+	color:grey;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	text-align: center;
+	transition: 0.1s;
+	border-radius: 20px; 
+
+}
+header nav  a:hover{
+	background: grey;
+	color: aliceblue;
+	transition: .8s;
+}
+
+.container section .main-title{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding: 0px;
+    top: 0;
+    font-size: 60px;
+	line-height: 1.28;
+	height: 379px;
+	vertical-align: top
+}
+
+.container section .header-img{
+	display: inline-block;
+	width: 45%;
+}
+
+section button{
+	border: none;
+	padding: 15px 65px;
+	font-size: 16px;
+	font-weight: 900; 
+	margin-top: 0px; 
+}
+
+.container section{
+	margin: 0px 0px 50px 0px; 
+}
+
+main section .features{
+	display: inline-block;
+	width: 45%;
+	margin: 30px;
+}
+main section .about{
+	display: inline-block;
+	width: 45%;
+}
+
+.middle-img{
+	width: 100%;
+	height: 185px;
+}
+
+address nav a {
+	text-decoration: none;
+	line-height: 1.6 ;
+	color: black;
+	font-weight: bold;
+}
+.vision{
+	display: inline-block;
+	width: 30%;
+	margin: 7px;
+}
+.product{
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+
+}
+.services{
+	display: inline-block;
+	margin: 7px 0px 10px 20px;
+	width: 30%;
+	
+}
+button {
+	border: none;
+	color: black;
+	text-align: center;
+	opacity: 0.6;
+	transition: 1s;
+  }
+  
+  button:hover {opacity: 1}
+
+#contact{
+	font-size: 25px
+}
+footer p {
+	margin: 20px;
+	text-align: center;
+}
